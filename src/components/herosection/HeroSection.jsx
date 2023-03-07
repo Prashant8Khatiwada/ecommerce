@@ -7,8 +7,8 @@ function HeroSection() {
     <div className="container hero-container">
       <div className="grid grid-two-column">
         <div className="hero-section-data">
-          <p className="intro-data">Welcome to </p>
-          <h1>PK Store</h1>
+          <h3 className="intro-data">Welcome to </h3>
+          <h1>Prashant's Store</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
             tenetur nisi praesentium cum dolorem cumque itaque doloribus soluta

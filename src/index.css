@@ -110,12 +110,6 @@ li {
   text-transform: capitalize;
 }
 
-.intro-data {
-  margin-bottom: 0;
-  text-transform: uppercase;
-  color: #5138ee;
-  font-size: 2rem ;
-}
 
 .caption {
   position: absolute;
