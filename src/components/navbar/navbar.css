@@ -1,0 +1,75 @@
+.nav_lists {
+    display: flex;
+    gap: 4.5rem;
+    list-style: none;
+    align-items: center;
+}
+
+
+.navbar_link {
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.navbar_link:hover {
+    transition: color 0.3s linear;
+    color: blueviolet;
+}
+
+
+/* ========== Cart ==========  */
+.cart_link {
+    position: relative;
+    color: black;
+}
+
+.cart_trolley {
+    position: relative;
+}
+
+.cart_total {
+    font-size: 1rem;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: blueviolet;
+    border-radius: 50%;
+    color: black;
+    display: grid;
+    place-items: center;
+    top: -40%;
+    left: 65%;
+}
+
+/* ========== for mobile view =========  */
+
+.nav_items {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .nav_lists{
+        display: none;
+    }
+    .active.nav_lists {
+        height: 100vh;
+        width: 100vw;
+        background: #000;
+    }
+
+    .nav_items {
+        display: inline-block;
+    }
+
+    .close-active,
+    .menu-active {
+        display: flex;
+        flex-direction: row;
+        font-size: 2rem;
+    }
+
+    .close-inactive,
+    .menu-inactive {
+        display: none;
+    }
+}

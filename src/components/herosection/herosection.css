@@ -1,0 +1,29 @@
+.hero-container{
+    padding: 12rem 0;
+}
+
+.hero-section-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section-image img{
+    width: 100%;
+    height: auto;
+}
+
+.hero-section-data p{
+        margin: 2rem 0;
+}
+.hero-section-data h1{
+        text-transform: capitalize;
+        font-weight: bold;
+}
+
+figure{
+    position: relative;
+
+}
