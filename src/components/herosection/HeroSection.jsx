@@ -2,13 +2,16 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./herosection.css" 
 import HeroImage from "../../assests/hero.jpg"
-function HeroSection() {
+function HeroSection({propsData}) {
+
+  const name = [propsData.name]
+  
   return (
     <div className="container hero-container">
       <div className="grid grid-two-column">
         <div className="hero-section-data">
           <h3 className="intro-data">Welcome to </h3>
-          <h1>Prashant's Store</h1>
+          <h1>{name}</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
             tenetur nisi praesentium cum dolorem cumque itaque doloribus soluta

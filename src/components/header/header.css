@@ -5,8 +5,14 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    background-color: #3282b8;
+   
 }   
 
+
+.nav_container h1{
+    color: #1b262c;
+}
 .logo-lnk {
     text-decoration: none;
 }

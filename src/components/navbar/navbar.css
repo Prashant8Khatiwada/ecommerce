@@ -1,3 +1,5 @@
+
+
 .nav_lists {
     display: flex;
     gap: 4.5rem;
@@ -9,11 +11,13 @@
 .navbar_link {
     text-decoration: none;
     font-size: 1.8rem;
+    color: #1b262c;
 }
+
 
 .navbar_link:hover {
     transition: color 0.3s linear;
-    color: blueviolet;
+    color: #0f4c75;
 }
 
 
