@@ -48,7 +48,7 @@ h4 {
 .btn {
   font-size: 1.3rem;
   text-decoration: none;
-  background-color: #0f4c75;
+  background-color: #182f4b;
   color: #bbe1fa;
   padding: .8rem 1.2rem;
   border: transparent 1px solid;
@@ -61,9 +61,9 @@ h4 {
 
 
 .btn:hover {
-  border: #0f4c75 1px solid;
+  border: #182f4b 1px solid;
   background-color: #bbe1fa;
-  color: #0f4c75;
+  color: #182f4b;
   transition: all 0.5s ease;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.5s ease 0s;

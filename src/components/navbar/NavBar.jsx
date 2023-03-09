@@ -22,12 +22,12 @@ function NavBar() {
 
           <li>
             <NavLink to="/contact" className="navbar_link contact_link">
-              Contact
+              About
             </NavLink>
           </li>
           <li>
             <NavLink to="/about" className="navbar_link about_link">
-              About
+               Singleproduct
             </NavLink>
           </li>
           <li>
@@ -35,7 +35,7 @@ function NavBar() {
               to="/singleproduct"
               className="navbar_link singleproduct_link"
             >
-              Singleproduct
+               Contact
             </NavLink>
           </li>
           <li>
