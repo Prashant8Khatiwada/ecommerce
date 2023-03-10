@@ -5,7 +5,9 @@
     align-items: center;
 }
 
-
+nav{
+    height: 100vh;
+}
 .navbar_link {
     text-decoration: none;
     font-size: 1.8rem;

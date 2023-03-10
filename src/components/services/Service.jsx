@@ -6,6 +6,7 @@ import { RiSecurePaymentLine } from "react-icons/ri";
 import "./service.css"
 function Service() {
   return (
+    <section>
     <div className="container service_container">
       <div className="grid grid-three-column">
         <div className="services services-1">
@@ -34,6 +35,7 @@ function Service() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 

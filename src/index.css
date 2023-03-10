@@ -45,6 +45,10 @@ h4 {
 
 }
 
+section{
+  height: 100vh;
+}
+
 .btn {
   font-size: 1.3rem;
   text-decoration: none;

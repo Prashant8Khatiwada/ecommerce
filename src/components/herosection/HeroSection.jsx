@@ -7,6 +7,7 @@ function HeroSection({propsData}) {
   const name = [propsData.name]
   
   return (
+    <section>
     <div className="container hero-container">
       <div className="grid grid-two-column">
         <div className="hero-section-data">
@@ -31,6 +32,7 @@ function HeroSection({propsData}) {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 
